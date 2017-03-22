@@ -1,0 +1,118 @@
+body{
+background-color: #C5E0DC;
+background-image: url(../img/fondo2.jpg), url(../img/fondo.jpg);
+background-repeat: repeat-x, repeat;
+background-position:left top,  left bottom;
+
+background-attachment: fixed
+}
+nav ul li a{
+  font-size: 10px;
+}
+nav ul li{
+  font-size: 10px;
+}
+.btn, .btn-large, .btn-flat {
+    padding:  0px 5px;
+}
+i.left {
+    float: left;
+    margin-right: 5px;
+}
+.imagen{
+    box-shadow: 0px 0px 4px #02010a;
+}
+
+@media (min-width: 1200px) {
+  #nav1{
+    display: block;
+  }
+      #nav2{
+        display: none;
+      }
+      #slogan1{
+        display: block;
+      }
+          #slogan2{
+            display: none;
+          }
+          #redes{
+            display: block;
+          }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav1{
+    display: block;
+  }
+      #nav2{
+        display: none;
+      }
+      #slogan1{
+        display: block;
+      }
+          #slogan2{
+            display: none;
+          }
+          #redes{
+            display: block;
+          }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav1{
+    display: block;
+  }
+      #nav2{
+        display: none;
+      }
+      #slogan1{
+        display: block;
+      }
+          #slogan2{
+            display: none;
+          }
+          #redes{
+            display: block;
+          }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  #nav1{
+    display: none;
+  }
+      #nav2{
+        display: block;
+      }
+      #slogan1{
+        display: block;
+      }
+          #slogan2{
+            display: none;
+          }
+          #redes{
+            display: none;
+          }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  #nav1{
+    display: none;
+  }
+      #nav2{
+        display: block;
+      }
+      #slogan1{
+        display: none;
+      }
+          #slogan2{
+            display: block;
+          }
+          #redes{
+            display: none;
+          }
+}

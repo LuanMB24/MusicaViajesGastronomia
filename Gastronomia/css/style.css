@@ -1,0 +1,56 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-color: #C0F1FF;
+
+}
+
+textarea{
+  resize: none;
+}
+a:link{
+  text-decoration:none;
+  color:#FF4D58;
+}
+@media  screen and (max-width: 420px) {
+    header{
+      display: none;
+    }
+    #busqueda{
+      display: none;
+    }
+}
+@media (min-width:421px) and (max-width:639px) {
+    header{
+      display: none;
+    }
+    #busqueda{
+      display: none;
+    }
+}
+h6{
+  color:#FF1040;
+}
+/*@media (max-width:420px) {
+  #title{
+    font-size: 30px;
+    color:red;
+  }
+}
+@media (min-width:421px) and (max-width:720px) {
+  #title{
+    font-size: 30px;
+    color:blue;
+  }
+}
+@media (min-width:600px) and (max-width:900px) {
+  #title{
+    font-size: 35px;
+    color:green;
+  }
+}
+@media (min-width:901px) {
+  #title{
+    font-size: 40px;
+    color:green;
+  }
+}*/
